@@ -15,3 +15,9 @@ resource "azurerm_resource_group" "Dharmendra_R1" {
   name     = "Dharm_RG1"
   location = "West Europe"
 }
+
+
+resource "azurerm_resource_group" "Dharmendra_R1" {
+  name     = "Dharm_RG2"
+  location = "West Europe"
+}
